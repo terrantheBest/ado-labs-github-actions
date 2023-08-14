@@ -32,7 +32,7 @@ jobs:
       with:
         terraform_version: 1.0.10
 
-    #  test Initialize a new or existing Terraform working directory by creating initial files, loading any remote state, downloading modules, etc.
+    #  test Initialize a new or existi ng Terraform working directory by creating initial files, loading any remote state, downloading modules, etc.
     - name: Terraform Init
       id: init
       env:
